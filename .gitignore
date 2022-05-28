@@ -4,7 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 /node_modules
 .env
-git rm --cached .env
+git rm .env --cached
+git commit -m "Stopped tracking .env File"
 # User-specific files
 *.rsuser
 *.suo
